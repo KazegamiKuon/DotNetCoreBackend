@@ -1,4 +1,4 @@
 /.vscode/
 /git-actions-practice/
-/obj/
+**/obj/
 /bin/

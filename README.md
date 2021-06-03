@@ -15,6 +15,13 @@ sudo apt-get update; \
   sudo apt-get install -y aspnetcore-runtime-5.0
 ```
 
+Create service:
+
+```script
+dotnet new worker -o <service name>
+dotnet restore
+```
+
 ```script
 dotnet new console
 dotnet restore
@@ -22,10 +29,5 @@ dotnet restore
 
 ```script
 dotnet new mvc -au NONE
-dotnet restore
-```
-
-```script
-dotnet new worker
 dotnet restore
 ```
